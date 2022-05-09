@@ -1,4 +1,5 @@
 
+
 public class gri extends Thread {
 	
 	float S= 0;
@@ -20,8 +21,13 @@ public class gri extends Thread {
 		if(S <100) { 
 			X = GetRandomPulo();
 			S = S + X; 
-		System.out.printf("O Grilo_0" + name + " pulou "+ X + "cm e já percorreu " + S + "cm" + "\n");
+		System.out.printf("O Grilo_0" + name + " pulou "+ X + "cm 		e jï¿½ percorreu " + S + "cm" + "\n");
 		}
+
 	}
+
+
+
+
 
 }
