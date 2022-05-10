@@ -1,7 +1,7 @@
 
 public class Run {
 	
-	static int nGrilos = 8;
+	static int nGrilos = 4;
 	static Grilo grilinhos[] = new Grilo[nGrilos]; 
 	public static float timeReleased = 0f;
 	
@@ -36,6 +36,7 @@ public class Run {
 		for (Grilo grilo : grilinhos) {
 			grilo.FixedUpdate(deltaT);
 		 }
+		 
 	}
 
 }
