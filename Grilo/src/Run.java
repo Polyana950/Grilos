@@ -8,7 +8,7 @@ public class Run {
 	public static void main(String[] args) {
 		
 		for(int i=0; i < nGrilos; i ++) {
-			grilinhos[i] = new gri(i+1, i%2);
+			grilinhos[i] = new gri(i+1, i%2+1);
 		}
 		
 		Initialize();
