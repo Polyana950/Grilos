@@ -2,13 +2,13 @@
 public class Run {
 	
 	static int nGrilos = 4;
-	static gri grilinhos[] = new gri[nGrilos]; 
+	static Grilo grilinhos[] = new Grilo[nGrilos]; 
 	public static float timeReleased = 0f;
 	
 	public static void main(String[] args) {
 		
 		for(int i=0; i < nGrilos; i ++) {
-			grilinhos[i] = new gri(i+1, i%2+1);
+			grilinhos[i] = new Grilo(i+1, i%2+1);
 		}
 		
 		Initialize();
@@ -33,7 +33,7 @@ public class Run {
 	}
 
 	public static void CallGriFixedUpdate(float deltaT) {
-		for (gri grilo : grilinhos) {
+		for (Grilo grilo : grilinhos) {
 			grilo.FixedUpdate(deltaT);
 		 }
 	}
